@@ -11,3 +11,13 @@
 @media(max-width:900px){.welcome-band{grid-template-columns:1fr}.welcome-image{max-height:620px}.trust-strip span:after{display:none}.site-header{height:76px}.brand img{width:140px;height:60px}.menu-toggle{display:block}.main-nav{position:absolute;top:76px;left:0;right:0;background:var(--cream);display:none;flex-direction:column;align-items:stretch;padding:1.2rem 2rem 2rem;border-bottom:1px solid var(--line)}.main-nav.open{display:flex}.main-nav a{padding:.6rem 0}.nav-cta{text-align:center;margin-top:.5rem}.hero{padding-top:120px}.about-grid,.included-grid,.faq-grid,.contact-grid{grid-template-columns:1fr;gap:3rem}.portrait,.contact-intro{position:static}.portrait{max-width:560px}.service-grid{grid-template-columns:1fr}.service-card:nth-child(2){margin-top:0}.service-photo{aspect-ratio:5/4}.timeline{grid-template-columns:1fr 1fr}.step:nth-child(2){border-right:1px solid rgba(0,0,0,.25)}.step:nth-child(3),.step:nth-child(4){border-top:1px solid rgba(0,0,0,.25)}.pricing-grid{grid-template-columns:1fr}.price-card{min-height:auto}.field-row{grid-template-columns:1fr}.hero-note{display:none}}
 @media(max-width:560px){.editorial-gallery{grid-template-columns:1fr}.gallery-wide,.gallery-tall{aspect-ratio:4/5}.trust-strip{justify-content:flex-start;gap:.55rem 1.2rem}.section{padding-top:4.5rem;padding-bottom:4.5rem}.hero{min-height:90vh}.hero-content{padding-bottom:2rem}.timeline{grid-template-columns:1fr}.step,.step:nth-child(2),.step:nth-child(3),.step:nth-child(4){border-right:0;border-top:1px solid rgba(0,0,0,.25);border-left:0;min-height:0;padding:1.5rem 0}.footer-bottom{flex-direction:column;gap:.8rem}.footer-info{flex-direction:column}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}}
+
+/* Version 3.1 editorial refinements */
+.welcome-band{grid-template-columns:minmax(0,1.18fr) minmax(0,.82fr)}
+.gallery-section{background:#fff;padding:6rem clamp(1.2rem,5vw,5rem) 1rem}
+.gallery-heading{max-width:760px;margin:0 auto 3rem;text-align:center}
+.gallery-heading h2{margin:.45rem 0 0}
+.gallery-section .editorial-gallery{padding:0;gap:.8rem}
+.gallery-walking{grid-column:1/-1;aspect-ratio:16/7}
+.gallery-walking img{object-position:center 35%}
+@media(max-width:760px){.welcome-band{grid-template-columns:1fr}.gallery-section{padding-top:4.5rem}.gallery-walking{grid-column:auto;aspect-ratio:4/5}}

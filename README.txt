@@ -24,3 +24,10 @@ BEFORE FINAL LAUNCH:
 - Add real testimonials when received
 - Confirm all pricing and travel fees
 - Add social links after accounts are created
+
+
+VERSION 3.1 UPDATES
+- Restored Chelsie's professional headshot in the Founder section.
+- Changed the Love is Love image to inclusive-wedding.jpg and increased its visual prominence.
+- Added “Moments worth remembering” as the gallery title.
+- Added Chelsie's walking photo to the gallery.
