@@ -1,22 +1,26 @@
-PINKY'S OFFICIATES WEBSITE — VERSION 2
+PINKY'S OFFICIATES WEBSITE — VERSION 3
 
-FILES
-- index.html: website content
-- styles.css: design and mobile styling
-- script.js: mobile menu and scroll animation
-- assets/images: logo files and Chelsie's headshot
+UPLOAD ALL OF THESE ITEMS TO THE ROOT OF THE GITHUB REPOSITORY:
+- index.html
+- styles.css
+- script.js
+- assets folder (including the images folder and every image inside it)
 
-BEFORE LAUNCH
-1. Replace hello@pinkysofficiates.com with Chelsie's actual email.
-2. Replace @pinkysofficiates with the correct social handle.
-3. Confirm pricing, holiday fee, travel counties, and rehearsal fees.
-4. Replace the three service photo placeholders and hero placeholder.
-5. Connect the inquiry form to Formspree, HoneyBook, or another form service. The current mailto form opens the visitor's email application and is not ideal for production.
-6. Add a privacy policy if collecting inquiries.
+IMPORTANT:
+The repository root should show index.html directly. Do not upload the enclosing pinkys-officiates-v3 folder as one nested folder.
 
-PREVIEW ON A MAC
-- Double-click index.html to open it in a browser.
-- Keep all files and folders together.
+This version includes:
+- Real ceremony photography
+- Full Chelsie biography exactly as provided
+- Licensed and ordained / seven years experience details
+- Religious and secular ceremony information
+- Open travel policy
+- Payment-in-full policy
+- Editorial gallery and inclusive welcome section
 
-STATIC HOSTING
-This package works with Netlify, Cloudflare Pages, GoDaddy cPanel hosting, and most standard static hosts.
+BEFORE FINAL LAUNCH:
+- Replace hello@pinkysofficiates.com with Chelsie's real email
+- Connect the inquiry form to a reliable form provider
+- Add real testimonials when received
+- Confirm all pricing and travel fees
+- Add social links after accounts are created
