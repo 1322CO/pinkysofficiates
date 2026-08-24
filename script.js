@@ -12,6 +12,34 @@ if (toggle && nav) {
     toggle.textContent = 'Menu';
   }));
 }
+
+const gallery = document.querySelector('.editorial-gallery');
+if (gallery && !gallery.dataset.newChelseaPhotosAdded) {
+  const newPhotos = [
+    { src: 'assets/images/IMG_2886.jpeg', cls: 'gallery-tall', alt: 'Chelsie signing wedding documents after a ceremony' },
+    { src: 'assets/images/IMG_2887.jpeg', cls: 'gallery-tall', alt: 'Chelsie signing the marriage license' },
+    { src: 'assets/images/IMG_2980.jpeg', cls: 'gallery-wide', alt: 'Chelsie beside a personalized wedding welcome sign' },
+    { src: 'assets/images/IMG_2981.jpeg', cls: 'gallery-wide', alt: 'Chelsie at a wedding beside the couple’s welcome sign' }
+  ];
+
+  const walkingPhoto = gallery.querySelector('.gallery-walking');
+  newPhotos.forEach(photo => {
+    const figure = document.createElement('figure');
+    figure.className = `${photo.cls} reveal`;
+    const img = document.createElement('img');
+    img.src = photo.src;
+    img.alt = photo.alt;
+    img.loading = 'lazy';
+    figure.appendChild(img);
+    if (walkingPhoto) {
+      gallery.insertBefore(figure, walkingPhoto);
+    } else {
+      gallery.appendChild(figure);
+    }
+  });
+  gallery.dataset.newChelseaPhotosAdded = 'true';
+}
+
 const items = document.querySelectorAll('.reveal');
 if ('IntersectionObserver' in window) {
   const observer = new IntersectionObserver(entries => {
